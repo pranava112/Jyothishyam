@@ -1,5 +1,4 @@
 import AllStotras from "./Stotras/AllStotras";
-import ErrorPage from "./ErrorPage";
 import HanumanChalisa from "./Stotras/HanumanChalisa";
 import Home from "./logs/Home";
 import KanakadharaStotram from "./Stotras/KanakadharaStotram";
@@ -11,13 +10,17 @@ import UserDashBoard from "./logs/UserDashBoard";
 import VishnusahasranamaStotram from "./Stotras/VishnusahasranamaStotram";
 import { createBrowserRouter } from "react-router-dom";
 
+// import ErrorPage from "./ErrorPage";
+
+
+
 export const routing = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
     children: [
       { path: "/", element: <Home/> },
-      { path: "*", element: <ErrorPage /> },
+      // { path: "*", element: <ErrorPage /> },
       {path:"/map",element:<Map/>},
       {path:"/DashBoard",element:<UserDashBoard/>},
       {path:"/PlanetaryPositions",element:<PlanetaryPositions/>},
