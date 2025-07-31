@@ -1,5 +1,5 @@
 import AllStotras from "./Stotras/AllStotras";
-import ErrorPage from "./logs/ErrorPage";
+import ErrorPage from "./ErrorPage";
 import HanumanChalisa from "./Stotras/HanumanChalisa";
 import Home from "./logs/Home";
 import KanakadharaStotram from "./Stotras/KanakadharaStotram";
