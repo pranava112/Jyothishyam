@@ -43,7 +43,7 @@ export const routing = createBrowserRouter([
     element: <Layout />,
     children: [
       { path: "/", element: <Home/> },
-      { path: "*", element: <ErrorPage /> },
+      { path: "*", element: <ErrorPage/> },
       {path:"/map",element:<Map/>},
       {path:"/DashBoard",element:<UserDashBoard/>},
       {path:"/PlanetaryPositions",element:<PlanetaryPositions/>},
